@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab1_movie</string>
+    <string name="movie_1">Peter Rabit</string>
+    <string name="movie_2">Life of The Party</string>
+    <string name="movie_3">Deadpool 2</string>
+    <string name="hd">HD</string>
+    <string name="sd">SD</string>
+    <string name="prompt">Please select quality for the movie...</string>
+    <string-array name="qualities">
+
+        <item>@string/hd</item>
+        <item>@string/sd</item>
+    </string-array>
+    <string-array name="movies">
+        <item>@string/prompt</item>
+        <item>@string/movie_1</item>
+        <item>@string/movie_2</item>
+        <item>@string/movie_3</item>
+    </string-array>
+</resources>
